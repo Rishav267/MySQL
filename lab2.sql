@@ -1,0 +1,1 @@
+create table review (ReviewType VARCHAR(100) not null, Review CHAR(200));

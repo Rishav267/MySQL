@@ -1,0 +1,6 @@
+a) Entities - diseasetable, dieasedetails
+b) diseasetable - id , name  , encounteredDate , Treatmenttaken
+   diseasedetails - diagnosedate
+c) diseasetable - (id)
+    diseasedetails - (disease_id)
+d) diseasetable(diseasetable has 1-1 mapping diseasedetails)

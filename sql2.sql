@@ -1,0 +1,2 @@
+select * from ecgreport , xray, bloodtest inner join ( select  * from memberinfo inner join cardiodiagnosis
+ on memberinfo.member_id = cardiodiagnosis.memberinfo_member_id ) as newt where newt.username = 'insli';

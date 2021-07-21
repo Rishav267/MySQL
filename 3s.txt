@@ -1,0 +1,6 @@
+a) entites - addinfo , memberinfo
+b) addinfo - id,countrycode, contactPrior , contactRelation, type, status
+    memberinfo - all as per diagram
+c) addinfo - (id)
+    memberinfo - (member_id)
+d) addinfo(addinfo has 1-many realtion with memberinfo)

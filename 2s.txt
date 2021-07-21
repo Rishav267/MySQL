@@ -1,0 +1,5 @@
+a) entites - devicedata, wearabledevicedata
+b) devicedata - id,device name, device description, device brand
+   wearabledevicedata - wearable_device_id
+c) devicedata - (id)
+d) devicedata(devicedata has 1-1 mapping with wearabledevicedata)
